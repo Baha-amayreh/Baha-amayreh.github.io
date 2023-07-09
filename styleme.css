@@ -30,3 +30,16 @@ ul {
   color: rgb(0, 0, 8);
   margin-bottom: 10px;
 }
+
+/* Styles for normal links */
+a:link,
+a:visited {
+  text-decoration: none;
+  /* Remove underline */
+}
+
+/* Styles for links on hover */
+a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+}
