@@ -33,8 +33,10 @@ ul {
 
 .list-container {
   display: flex;
-  flex-direction: column-reverse;
   /* Reverse the order of items */
+  flex-direction: column-reverse;
+  /* Align items to the start of the container */
+  align-items: flex-start;
 }
 
 /* Styles for normal links */
