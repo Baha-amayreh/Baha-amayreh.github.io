@@ -29,6 +29,7 @@ ul {
   font-weight: bold;
   color: rgb(0, 0, 8);
   margin-bottom: 10px;
+  flex-direction: column-reverse;
 }
 
 /* Styles for normal links */
