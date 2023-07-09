@@ -29,7 +29,12 @@ ul {
   font-weight: bold;
   color: rgb(0, 0, 8);
   margin-bottom: 10px;
+}
+
+.list-container {
+  display: flex;
   flex-direction: column-reverse;
+  /* Reverse the order of items */
 }
 
 /* Styles for normal links */
