@@ -31,7 +31,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.list-container {
+ol {
   display: flex;
   /* Reverse the order of items */
   flex-direction: column-reverse;
@@ -39,13 +39,6 @@ ul {
   align-items: flex-start;
 }
 
-/* List items */
-.list-item {
-  list-style: none;
-  /* Remove default bullet points */
-  margin: 5px 0;
-  /* Add some spacing between items */
-}
 
 /* Styles for normal links */
 a:link,
