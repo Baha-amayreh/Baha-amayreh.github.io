@@ -1,0 +1,258 @@
+body {
+    margin: 0 200px;
+    background: url('images/background.png');
+}
+
+.first {
+   
+    background: url('images/rbg.png');
+}
+
+.first img {
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.second {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #111010;
+    border-radius: 20px;
+    min-height: 1250px;
+}
+
+.second .banner1 {
+    height: 83px;
+    background: url('images/rbg.png');
+    border-radius: 20px;
+    float: left;
+    width: 100%;
+
+}
+.second .banner1 img{
+    margin-left: 20px;
+    float: left;
+    
+}
+.second .banner1 h2{
+    color: red;
+    font-size: 50px;
+    float: left;
+    margin-top: 10px;
+}
+.second .banner2{
+    float: right;
+} 
+.second .banner2 img{
+    width: 250px;
+}
+.second .banner2 .right{
+    height: 800px;
+    background-color: aquamarine;
+    margin-top: 412px;
+    margin-left: 19px;
+    padding: 10px;
+    width:230px;
+}
+.second .banner2 .right p{
+    font-size: 0.1px;
+}
+
+.second .banner2 .right span{
+
+    display: block;
+    margin-left: 35px;
+    font-size: 0.1px;
+}
+.second .banner2 .right a{
+
+    display: block;
+    margin-left: 35px;
+  
+}
+
+
+.second .banner3{
+    
+    height: auto;
+    width: 300px;
+    margin:10px;
+    border-radius: 10px;
+    float: left;
+    background-color:darkgrey;
+    border: 2px solid #1b1919;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.second .banner3 img
+{
+    margin-left: 0px;
+    float: left;
+    padding: 5px;
+
+}
+.second .banner3 p {
+margin-top: 0px;
+padding: 8px;
+clear:both ;
+}
+
+.second .banner4{
+    width: 300px;
+    margin-left: 10px;
+    height: 40px;
+    float: left;
+    margin-bottom: 30px;    
+
+}
+.second .banner4 img{
+    float: left;
+}
+.second .banner4 p{
+    margin-top: 1px;
+}
+
+.second .banner5{
+    width: 300px;
+    margin-left: 10px;
+    height: auto;
+    float: left;
+    background-color:beige;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color:darkgrey;
+    border: 2px solid #1b1919;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.second .banner5 img{
+    float: left;
+}
+.second .banner5 p{
+    margin-top: 1px;
+}
+
+.second .banner6{
+    width: 300px;
+    margin-left: 10px;
+    height: 40px;
+    float: left;
+    margin-bottom: 30px;    
+
+}
+.second .banner6 img{
+    float: left;
+}
+.second .banner6 p{
+    margin-top: 1px;
+}
+
+.second .banner7{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    background-color:darkgrey;
+    border: 2px solid #1b1919;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.second .banner7 img{
+    float: left;
+}
+.second .banner7 p{
+    margin-top: 1px;
+}
+
+.second .banner8{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+.second .banner8 img{
+    float: left;
+}
+.second .banner8 p{
+    margin-top: 1px;
+}
+
+.second .banner9{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    background-color:darkgrey;
+    border: 2px solid #1b1919;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.second .banner9 img{
+    float: left;
+}
+.second .banner9 p{
+    margin-top: 1px;
+}
+
+.second .banner10{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+.second .banner10 img{
+    float: left;
+}
+.second .banner10 p{
+    margin-top: 1px;
+}
+
+.second .banner11{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    background-color:darkgrey;
+    border: 2px solid #1b1919;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.second .banner11 img{
+    float: left;
+}
+.second .banner11 p{
+    margin-top: 1px;
+}
+
+.second .banner12{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+.second .banner12 img{
+    float: left;
+}
+.second .banner12 p{
+    margin-top: 1px;
+}
+footer{
+    display: block;
+    margin-top: 1110px;
+    height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    clear: both;
+}
+a{
+    float: right;
+    margin-right: 10px;
+    display: block;
+}
