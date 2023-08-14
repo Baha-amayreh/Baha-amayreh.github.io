@@ -1,4 +1,5 @@
 $(function () {
+    let timer1, timer2;
     function increaseCircleSize() {
         let w = parseInt($('.circle').css('width')) + 10 + 'px';
         $('.circle').css({
@@ -7,27 +8,30 @@ $(function () {
         });
         console.log(w, ',' + w);
     }
-    let timer1 = setInterval(increaseCircleSize, 250);
-    $('.circle').click(function () {
-        $('.circle').hide();
-        clearInterval(timer1);
-    })
-
+    timer1 = setInterval(increaseCircleSize, 250);
     $('#start').click(function () {
-        let w, g, gr, newsize = 0;
+        let w, g, newsize = 0;
         function increaseCircleSize2() {
             w = parseInt($('#width').val());
             g = parseInt($('#growth').val());
             newsize = parseInt(newsize) + w + g + 'px';
-            gr = parseInt($('#growthRate').val());
             $('.circle').css({
                 'width': newsize,
                 'height': newsize
             });
-            $('.circle').show();
-            console.log(w, g, gr);
+            if (parseInt(newsize) === (w + g)) {
+                const newCircle = $('<div class="circle"></div>');
+                $('body').append(newCircle);
+            }
         }
-        let timer2 = setInterval(increaseCircleSize2, this.gr);
-
+        timer2 = setInterval(increaseCircleSize2, parseInt($('#growthRate').val()));
+    });
+    $('.circle').click(function () {
+        $('.circle').remove();
+        clearInterval(timer1);
+        clearInterval(timer2);
+    });
+    $(document).on('click', '.circle', function () {
+        $(this).remove();
     });
 })
